@@ -26,3 +26,7 @@ jar {
                   exclude "META-INF/*.MF"
              }
 }
+
+tasks.withType(JavaCompile) {
+	options.encoding = "UTF-8" 
+}

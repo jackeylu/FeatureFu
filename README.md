@@ -58,9 +58,9 @@ Using it is as simple as:
  
 ```java
 
-cd build/expr/lib
+cd expr/build/libs
 
-$java -cp expr-1.0.jar Expression "(+ 0.5 (* (/ 15 1000) (ln (- 55 12))))"
+$java -jar expr.jar "(+ 0.5 (* (/ 15 1000) (ln (- 55 12))))"
 
 =(0.5+((15.0/1000.0)*ln((55.0-12.0))))
 =0.5564180017354035
